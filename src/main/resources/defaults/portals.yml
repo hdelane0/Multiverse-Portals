@@ -1,4 +1,61 @@
-# This is the new portals file.
-# You apparently haven't created or imported any portals.
-# Otherwise, they'd be in here.
-portals: {}
+portals:
+  Crunch2Shop:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: LunarRust
+    location: -16787.0,49.0,-11114.0:-16787.0,52.0,-11111.0
+    world: Crunchbone
+    destination: Shop
+  Shop2Crunch:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: LunarRust
+    location: -16797.0,49.0,-11117.0:-16794.0,52.0,-11117.0
+    world: Shop
+    destination: Crunchbone
+  Crunch2Creative:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: LunarRust
+    location: -16787.0,49.0,-11119.0:-16787.0,52.0,-11116.0
+    world: Crunchbone
+    destination: Creative
+  Creative2Crunch:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: LunarRust
+    location: -2007.0,48.0,3076.0:-2007.0,51.0,3079.0
+    world: Creative
+    destination: Crunchbone
+  King2Crunch:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: LunarRust
+    location: 1.0,129.0,-406.0:3.0,131.0,-406.0
+    world: Crunchbone_nether
+    destination: p:Crunch2King:w
+  Crunch2King:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: LunarRust
+    location: 309.0,93.0,-3323.0:309.0,95.0,-3321.0
+    world: Crunchbone
+    destination: p:King2Crunch
